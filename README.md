@@ -1,5 +1,4 @@
-# simple-and-obfuscate-PHP-shell and uploader
-several list of simple and obfuscate PHP shell and uploader
+# Simple and Obfuscate PHP Web Shell
 
 <h1>PHP Web Shell</h1>
 
